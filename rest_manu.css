@@ -1,0 +1,42 @@
+header {
+    background-color: #48cd2a;
+    color: rgb(229, 235, 236);
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    color: rgb(128, 16, 189);
+   
+}
+
+h2 {
+    color: #f0a709;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li::after {
+    content: attr(data-price);
+    float: right;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1c3fcd;
+    color: white;
+}
